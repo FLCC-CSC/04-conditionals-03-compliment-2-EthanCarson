@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Ethan Carson
+# DATE: 10/2/2025
+# BRIEF DESCRIPTION:  This lab outputs a compliment if the user says 'yes', otherwise it alerts the user that they will not recieve a compliment.
 
 
 
@@ -15,7 +15,11 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
+user_input = input('Would you like a compliment? ')
+if user_input =='yes':
+    print('You have wonderful eyes.')
+else: print('No compliment for you!')
+print('Thank you for playing.')
 
 
 
@@ -71,7 +75,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
-
+NO
 
 
 
